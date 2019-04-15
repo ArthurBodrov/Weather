@@ -115,7 +115,7 @@ class FutureTodayWeather {
         Alamofire.request(API_URL_2).responseJSON { (responce) in
             let result = responce.result
             let json = JSON(result.value)
-//            print(json)
+            print(json)
             
             
             let firstTempDownloaded = json["list"][1]["main"]["temp"].double

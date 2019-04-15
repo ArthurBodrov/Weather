@@ -198,6 +198,7 @@
 		8E7745D2223CF47C008635B2 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				8E7745D3223CF47C008635B2 /* AppDelegate.swift */,
 				8E0098EA223FA39000A2812A /* Fonts */,
 				8ECE73FA223E45650048C048 /* Extras */,
 				8ECE73FF223E4FCA0048C048 /* Extensions */,
@@ -256,7 +257,6 @@
 		8E774604223D22DD008635B2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8E7745D3223CF47C008635B2 /* AppDelegate.swift */,
 				8ECE73FD223E47620048C048 /* CurrentTodayWeather.swift */,
 				8ECE7404223E98920048C048 /* FutureTodayWeather.swift */,
 				8ECE7402223E5C540048C048 /* Location.swift */,
